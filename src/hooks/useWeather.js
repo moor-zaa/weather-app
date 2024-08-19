@@ -26,7 +26,7 @@ const useWeather = () => {
             let todayStorageData = {
               location: response.data.name,
               weather: response.data,
-              temprature: response.data.main.temp,
+              temperature: response.data.main.temp,
               lastUpdated: Date.now(),
             };
 
